@@ -10,11 +10,11 @@ def index():
 def index():
     return "Hiabc"
 
+@app.get("/abcddddd")
+def index():
+    return "Hiabcddd"
+
+
 if __name__ == '__main__':
     app.run(debug=True)
 
-
-'''
-CI
-
-'''
